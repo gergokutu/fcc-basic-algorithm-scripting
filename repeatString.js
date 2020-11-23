@@ -43,4 +43,9 @@ const repeatStringNumTimes = (str, num) => {
 //   return accumulatedStr;
 // }
 
+// My 3rd - with repeat()
+// const repeatStringNumTimes = (str, num) => {
+//   return str.repeat(num);
+// }
+
 console.log("Should be abcabcabc >", repeatStringNumTimes("abc", 3));
