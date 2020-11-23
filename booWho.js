@@ -3,4 +3,4 @@
 // My 1st
 const booWho = bool => typeof bool === 'boolean';
 
-booWho(null);
+console.log('Should be false >', booWho(null));
